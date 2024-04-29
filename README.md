@@ -15,3 +15,5 @@ That's why i've created this, to help me quickly refresh my memory with concise 
 It's like having a cheat sheet that's always there when you need it, ensuring you spend less time relearning and more time doing what you do best—coding!
 
 I know there are some fantastic free tools available, like Notion.so, which I already use, but I'm looking for something that better suits my style and, of course, I love coding! :)
+
+© 2023 Jessish PothancheriAll Rights Reserved. | Dream, Code, Inspire and Innovate.
