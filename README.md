@@ -16,4 +16,4 @@ It's like having a cheat sheet that's always there when you need it, ensuring yo
 
 I know there are some fantastic free tools available, like Notion.so, which I already use, but I'm looking for something that better suits my style and, of course, I love coding! :)
 
-© 2023 Jessish PothancheriAll Rights Reserved. | Dream, Code, Inspire and Innovate.
+**© 2024 Jessish Pothancheri. All Rights Reserved. | Dream, Code, Inspire and Innovate.**
