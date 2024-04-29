@@ -1,8 +1,8 @@
 {
   "app": {
     "developerName": "Jessish Pothancheri",
-    "appName" : "devnotes",
-    "readme": "https://raw.githubusercontent.com/jpothanc/developer-notes/main/README.md",
+    "appName": "devnotes",
+    "readme": "https://raw.githubusercontent.com/jpothanc/devnotes/main/README.md",
     "contentBaseUrl": "https://raw.githubusercontent.com/jpothanc/developer-notes/main/",
     "indexFile": "index/index.json",
     "defaultSelection": {
