@@ -1,0 +1,13 @@
+{
+  "app": {
+    "developerName": "Jessish Pothancheri",
+    "appName" : "devnotes",
+    "readme": "https://raw.githubusercontent.com/jpothanc/developer-notes/main/README.md",
+    "contentBaseUrl": "https://raw.githubusercontent.com/jpothanc/developer-notes/main/",
+    "indexFile": "index/index.json",
+    "defaultSelection": {
+      "menu": "web",
+      "submenu": "web-styling/css/css_containers.md"
+    }
+  }
+}

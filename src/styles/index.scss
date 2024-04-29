@@ -1,0 +1,76 @@
+@import "notes.scss";
+$about-color: #93377ce2;
+$logo-color: #eeeeee;
+$nav-color: #37474f;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+/*BASE STYLES*/
+body {
+  background-color: rgba(20, 20, 20, 1);
+  font-family: "Segoe UI", sans-serif;
+  height: 100vh;
+}
+
+.navbar {
+  grid-area: navbar;
+  padding-left: 20px;
+  display: flex;
+  padding: 15px 0;
+  background-color: $nav-color;
+  column-gap: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  .navbar__logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    font-style: italic;
+    font-family: cursive;
+    background-color: $about-color;
+    color: $logo-color;
+  }
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    margin-left: auto;
+    padding-right: 20px;
+    column-gap: 10px;
+
+    .navbar__menu-item {
+      padding: 5px 5px;
+      background-color: $about-color;
+      color: $logo-color;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      &:hover {
+        filter: brightness(1.2);
+      }
+    }
+  }
+}
+.footer {
+  color: $about-color;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  font-weight: 300;
+  width: 100%;
+  font-size: 11px;
+  &:hover {
+    filter: brightness(0.7);
+    transition: all 0.5s ease;
+  }
+}
