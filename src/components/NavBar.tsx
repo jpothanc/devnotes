@@ -23,11 +23,11 @@ const NavBar = () => {
       <div className="navbar">
         <div className="navbar__logo">{config.app.appName}</div>
         <div className="navbar__menu">
+          <div>
+            <GoShare className="navbar__menu-item" />
+          </div>
           <div onClick={handleOpenModal}>
             <IoMenu size="24" className="navbar__menu-item" />
-          </div>
-          <div>
-          <GoShare className="navbar__menu-item" />
           </div>
         </div>
 
