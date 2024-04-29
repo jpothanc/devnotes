@@ -1,7 +1,7 @@
 import { WindowMd, WindowMdRef } from "react-jp-ui";
 import config from "../config/config.json";
 import { useEffect, useRef, useState } from "react";
-import Footer from "./Footer";
+import { GoShare } from "react-icons/go";
 import { IoMenu } from "react-icons/io5";
 const NavBar = () => {
   const [about, setAbout] = useState<string>("");
@@ -26,8 +26,11 @@ const NavBar = () => {
           <div onClick={handleOpenModal}>
             <IoMenu size="24" className="navbar__menu-item" />
           </div>
+          <div>
+          <GoShare className="navbar__menu-item" />
+          </div>
         </div>
-        <Footer />
+
         <WindowMd title="" content={about} bgcolor="#212121" ref={modalRef} />
       </div>
     </>
