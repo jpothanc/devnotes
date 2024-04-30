@@ -1,6 +1,6 @@
 {
   "name": "devnotes",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "homepage": "https://jpothanc.github.io/devnotes/",
