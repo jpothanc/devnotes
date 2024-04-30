@@ -1,8 +1,9 @@
 $md-text-header-color: rgb(188, 185, 180);
 $md-text-color: #67a1be;
 
-th, td {
-    color: $md-text-color;
+th,
+td {
+  color: $md-text-color;
 }
 /* Style the container */
 .markdown-content {
@@ -44,4 +45,9 @@ th, td {
 }
 .overlay.visible {
   z-index: 99;
+}
+@media (max-width: 925px) {
+  .jp_wmd_container {
+    width: 70%;
+  }
 }
