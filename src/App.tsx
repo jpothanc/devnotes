@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import DevNotesPage from "./pages/DevNotesPage";
+import Main from "./pages/Main";
 
 const App = () => {
   return (
@@ -8,8 +8,8 @@ const App = () => {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/" element={<DevNotesPage />} />
-          <Route path="/devnotes" element={<DevNotesPage />} />
+          <Route path="/" element={<Main />} />
+          <Route path="/devnotes" element={<Main />} />
         </Routes>
       </Router>
     </>

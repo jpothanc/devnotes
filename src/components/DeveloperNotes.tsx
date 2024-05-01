@@ -40,6 +40,7 @@ const DeveloperNotes = () => {
             items={menu}
             onClick={async (value) => {
               setSubMenu(await getSubMenu(value));
+              setMdContent({ url: getUrl(value.link), content: "" });
             }}
           />
 
@@ -51,7 +52,7 @@ const DeveloperNotes = () => {
               console.log(value.link);
             }}
           />
-         
+
           <MdViewer content={mdContent.content} />
         </div>
       </div>

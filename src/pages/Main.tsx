@@ -1,5 +1,5 @@
 import DeveloperNotes from "../components/DeveloperNotes";
-const DevNotesPage = () => {
+const Main = () => {
   return (
     <>
       <DeveloperNotes />
@@ -7,4 +7,4 @@ const DevNotesPage = () => {
   );
 };
 
-export default DevNotesPage;
+export default Main;

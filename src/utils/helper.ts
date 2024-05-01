@@ -41,14 +41,13 @@ export async function getMenu(): Promise<buttonItem[]> {
   );
   if (!jsonData) return [];
   console.log(jsonData);
-
   return jsonData.developerNotes.tags;
 }
 
 export async function getSubMenu(
   buttonItem: buttonItem
 ): Promise<buttonItem[]> {
-  const jsonData = await fetchJsonData(getIndexFile());
+  let jsonData = await fetchJsonData(getIndexFile());
   if (!jsonData) return [];
   console.log(jsonData);
 

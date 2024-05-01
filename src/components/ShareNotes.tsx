@@ -1,7 +1,7 @@
 import { MdViewer } from "react-jp-ui";
 
 const height = 600;
-const MarkdownView = () => {
+const ShareNotes = () => {
   return (
     <>
       <div className="notes-container">
@@ -11,4 +11,4 @@ const MarkdownView = () => {
   );
 };
 
-export default MarkdownView;
+export default ShareNotes;
