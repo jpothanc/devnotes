@@ -20,7 +20,10 @@ const DeveloperNotes = () => {
     getMenu().then((data) => {
       setMenu(data);
     });
-    getSubMenu({ name: "web" }).then((data) => {
+    getSubMenu({
+      name: config.app.defaultSelection.menu,
+      bgColor: config.app.defaultSelection.bgcolor,
+    }).then((data) => {
       setSubMenu(data);
     });
   }, []);

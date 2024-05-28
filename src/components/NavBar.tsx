@@ -22,6 +22,7 @@ const NavBar = () => {
     <>
       <div className="navbar">
         <div className="navbar__logo">{config.app.appName}</div>
+        {/* <div className="navbar__logo1">remembers everything</div> */}
         <div className="navbar__menu">
           <div>
             <GoShare className="navbar__menu-item" />
