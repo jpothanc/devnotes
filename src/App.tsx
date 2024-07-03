@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Main from "./pages/Main";
 import ShareNotes from "./components/ShareNotes";
@@ -10,7 +10,7 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/devnotes" element={<ShareNotes />} />
+          <Route path="/sharenotes" element={<ShareNotes />} />
         </Routes>
       </Router>
     </>
