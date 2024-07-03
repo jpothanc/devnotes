@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
 import { ButtonMenuList, MdViewer, buttonItem } from "react-jp-ui";
 import config from "../config/config.json";
-import { getMenu, getSubMenu, getUrl } from "../utils/helper";
-
-type mdContent = {
-  url: string | undefined;
-  content: string;
-};
+import { getMenu, getSubMenu, getUrl, mdContent } from "../utils/helper";
 
 const DeveloperNotes = () => {
   const [mdContent, setMdContent] = useState<mdContent>({
